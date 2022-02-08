@@ -1,0 +1,125 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Blacksword';
+    src: url('../fonts/Blacksword.otf');
+}
+
+@font-face {
+    font-family: 'cardo-bold';
+    src: url('../fonts/cardo/cardo-bold.woff');
+}
+
+@font-face {
+    font-family: 'cardo-italic';
+    src: url('../fonts/cardo/cardo-italic.woff');
+}
+
+body {
+    font-family: 'Cardo', serif;
+    font-size: 1.4em;
+    line-height : 50px;
+    text-align: justify;
+    background-color: #fbfaf4;
+    color: #555;
+}
+
+/* ENTETE */ 
+
+header {
+    background-image: url(../img/bunting.png);
+    background-repeat: repeat-x;
+    padding-top: 70px;
+}
+
+/* MAIN, FOOTER */
+
+main, footer {
+    max-width: 47%;
+    margin: auto;
+}
+
+/* TITRE */
+
+h1, h2, h3 {
+    font-family: 'Blacksword';
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 4em;
+    word-spacing : 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    word-spacing : 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-indent : 25px;
+}
+
+/* PARAGRAPHE */
+
+p {
+    text-indent : 25px;
+}
+
+/* LIEN */
+
+p a {
+    color: #f2a1b1;
+    text-decoration: none;
+}
+
+/* TEXTE IMPORTANT */
+
+strong {
+    font-family: 'cardo-bold';
+}
+
+em {
+    font-family: 'cardo-italic';
+}
+
+/* CITATION */ 
+
+figure blockquote {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+figure blockquote .citation {
+    font-size: 1.6em;
+    color: #666;
+    text-align: center;
+    font-style: italic;
+}
+
+figure blockquote .auteur {
+    text-align: right;
+    font-style: italic;
+}
+
+/* PIED DE PAGE */ 
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer p {
+    line-height : 1.2;
+    text-indent: 0;
+    text-align: center;
+}
